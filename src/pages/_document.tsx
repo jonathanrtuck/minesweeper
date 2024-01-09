@@ -1,13 +1,15 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { FunctionComponent } from "react";
 
-export default function Document() {
-  return (
-    <Html lang="en">
-      <Head />
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
-}
+import { Html, Head, Main, NextScript } from "next/document";
+
+const Document: FunctionComponent = () => (
+  <Html lang="en">
+    <Head />
+    <body>
+      <Main />
+      <NextScript />
+    </body>
+  </Html>
+);
+
+export default Document;
